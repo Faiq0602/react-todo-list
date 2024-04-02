@@ -1,0 +1,49 @@
+.task-list-container {
+    background-color: #31363F;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .task-list-container h2 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
